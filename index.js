@@ -26,7 +26,7 @@ export default class SharedGroupPreferences {
         if (errorCode != null) {
           reject(errorCode)
         } else {
-          resolve(JSON.parse(item))
+          resolve(item)
         }
       })
     })
